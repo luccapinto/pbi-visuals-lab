@@ -135,14 +135,16 @@ export class Visual extends TalosVisual {
             label: `${flow.source} → ${flow.target}`
         }));
 
+        // Faixas laterais reservadas para os rótulos dos nós das pontas.
+        const labelBudget = size.width > 420 ? 78 : 0;
         const generator = sankey<FlowNode, FlowLink>()
             .nodeId((node: FlowNode) => node.name)
             .nodeWidth(nodeWidth)
             .nodePadding(nodePadding)
             .nodeAlign(align)
             .extent([
-                [4, 8],
-                [Math.max(80, size.width - 4), Math.max(40, size.height - 8)]
+                [4 + labelBudget, 8],
+                [Math.max(80, size.width - 4 - labelBudget), Math.max(40, size.height - 8)]
             ]);
 
         let graph;
@@ -275,11 +277,11 @@ export class Visual extends TalosVisual {
             const label = svgEl(
                 "text",
                 {
-                    x: isRightSide ? (node.x0 || 0) - 6 : (node.x1 || 0) + 6,
+                    x: isRightSide ? (node.x1 || 0) + 6 : (node.x0 || 0) - 6,
                     y: (node.y0 || 0) + height / 2 + 3,
                     fill: theme.fg,
                     "font-size": 10,
-                    "text-anchor": isRightSide ? "end" : "start",
+                    "text-anchor": isRightSide ? "start" : "end",
                     "pointer-events": "none"
                 },
                 `${node.name.length > 20 ? `${node.name.slice(0, 19)}…` : node.name} · ${formatCompact(node.value || 0, 1)}`

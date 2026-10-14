@@ -51,7 +51,7 @@
     "emptyStateText": "Grade de pontosAdicione Categoria e um ValorCada célula mostra o valor em pontos",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 12280,
+    "bytes": 12292,
     "apiVersion": "5.11.0"
   },
   {
@@ -115,7 +115,7 @@
     "emptyStateText": "Dumbbell comparativoAdicione Categoria, Valor inicial e Valor finalAceita tabela",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 14184,
+    "bytes": 14214,
     "apiVersion": "5.11.0"
   },
   {
@@ -138,7 +138,7 @@
     },
     "updateOk": true,
     "nodes": 21,
-    "textLength": 227,
+    "textLength": 222,
     "classes": [
       "tl-root",
       "tl-header",
@@ -162,7 +162,7 @@
     "interactionTargets": 1,
     "interactionsDispatched": 5,
     "gameSubmitted": true,
-    "gameText": "Desafio · quem conhece os números?chute o valor de Receita0pontos · sequência 0 · recorde 0rodada 2/8Paráquanto vale Receita para essa categoria?chutarreal: 18.",
+    "gameText": "Desafio · quem conhece os números?chute o valor de Receita0pontos · sequência 0 · recorde 0rodada 2/8Cearáquanto vale Receita para essa categoria?chutarreal: 12",
     "tooltipsShown": 0,
     "tooltipsHidden": 0,
     "selections": 0,
@@ -175,7 +175,7 @@
     "emptyStateText": "Desafio · quem conhece os números?Adicione Categoria e um ValorO jogo sorteia um",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 12947,
+    "bytes": 12959,
     "apiVersion": "5.11.0"
   },
   {
@@ -236,7 +236,7 @@
     "emptyStateText": "Micro-gráficos por categoriaAdicione Categoria, Valor inicial e Valor finalCada ",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 11860,
+    "bytes": 11873,
     "apiVersion": "5.11.0"
   },
   {
@@ -305,7 +305,7 @@
     "emptyStateText": "Bandas de horizonteAdicione Eixo, Série (opcional) e ValorCada série virá numa f",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 13691,
+    "bytes": 13714,
     "apiVersion": "5.11.0"
   },
   {
@@ -373,7 +373,7 @@
     "emptyStateText": "Matriz de calorAdicione Categoria, Coluna e ValorLinha x coluna cruzadas por uma",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 12232,
+    "bytes": 12246,
     "apiVersion": "5.11.0"
   },
   {
@@ -442,7 +442,7 @@
     "emptyStateText": "Radar comparativoAdicione Categoria e duas ou mais MedidasO radar precisa de pel",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 13568,
+    "bytes": 13580,
     "apiVersion": "5.11.0"
   },
   {
@@ -499,7 +499,7 @@
     "emptyStateText": "Anel de participaçãoAdicione Categoria e um ValorO anel mostra a participação de",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 13789,
+    "bytes": 13781,
     "apiVersion": "5.11.0"
   },
   {
@@ -567,7 +567,7 @@
     "emptyStateText": "Fluxo entre origem e destinoAdicione Origem, Destino e ValorUma linha por caminh",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 16126,
+    "bytes": 16153,
     "apiVersion": "5.11.0"
   },
   {
@@ -634,7 +634,7 @@
     "emptyStateText": "FiltroAdicione uma CategoriaClique nos itens para filtrar o relatório inteiro",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 24709,
+    "bytes": 24722,
     "apiVersion": "5.11.0"
   },
   {
@@ -696,12 +696,12 @@
     ],
     "renderingFinished": 1,
     "renderErrors": [],
-    "resizedNodes": 67,
+    "resizedNodes": 55,
     "emptyStateNodes": 8,
     "emptyStateText": "Query buildermodo terminalAdicione uma CategoriaA consulta é montada a partir da",
     "renderErrorsAfterEdgeCases": [],
     "ok": true,
-    "bytes": 25313,
+    "bytes": 25352,
     "apiVersion": "5.11.0"
   }
 ]

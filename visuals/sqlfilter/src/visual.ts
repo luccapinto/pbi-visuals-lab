@@ -238,6 +238,10 @@ export class Visual extends TalosVisual {
 
         append(chrome.body, query);
 
+        // A grade ocupa o que sobrar do bloco da consulta (medido de verdade,
+        // não por um palpite de altura).
+        const queryHeight = Math.max(72, Math.round(query.getBoundingClientRect().height) || 120);
+
         // result grid
         const grid = styled(
             "div",
@@ -251,7 +255,8 @@ export class Visual extends TalosVisual {
             },
             { class: "tl-grid" }
         );
-        const visibleRows = Math.max(1, Math.floor((size.height - 108) / rowHeight));
+        const gridSpace = Math.max(rowHeight, size.height - queryHeight - 34);
+        const visibleRows = Math.max(1, Math.floor(gridSpace / rowHeight));
         const header = styled(
             "div",
             {

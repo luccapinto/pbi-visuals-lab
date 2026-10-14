@@ -126,9 +126,9 @@ export class Visual extends TalosVisual {
         const size = bodySize(chrome, ctx);
         const showCenter = optBool(settings.ring.showCenterKpi.value, true);
         const showLegend = showLegendOf(settings);
-        const legendWidth = showLegend ? clamp(size.width * 0.34, 130, 240) : 0;
-        const plotWidth = Math.max(80, size.width - legendWidth);
-        const diameter = Math.min(plotWidth, size.height) - 12;
+        // O anel ocupa o corpo inteiro; a legenda fica no rodapé, em linha.
+        const plotWidth = Math.max(80, size.width);
+        const diameter = Math.max(40, Math.min(plotWidth, size.height) - 12);
         const outer = diameter / 2;
         const thickness = clamp(optNumber(settings.ring.thickness.value, 34), 8, 70) / 100;
         const inner = outer * (1 - thickness);
@@ -164,15 +164,15 @@ export class Visual extends TalosVisual {
             x: cx,
             y: cy + 2,
             fill: theme.fg,
-            "font-size": Math.max(14, cx * 0.34),
+            "font-size": Math.max(11, Math.min(inner * 0.52, cx * 0.4)),
             "font-weight": 700,
             "text-anchor": "middle"
         });
         const centerLabel = svgEl("text", {
             x: cx,
-            y: cy + Math.max(16, cx * 0.24),
+            y: cy + Math.max(14, Math.min(inner * 0.28, cx * 0.26)),
             fill: theme.sub,
-            "font-size": 11,
+            "font-size": 10,
             "text-anchor": "middle"
         });
 
@@ -243,8 +243,6 @@ export class Visual extends TalosVisual {
 
         if (showLegend) {
             const legendHost = chrome.footer;
-            legendHost.style.flexDirection = "column";
-            legendHost.style.alignItems = "flex-start";
             renderLegend(legendHost, chrome, segments.map((segment) => ({
                 label: `${segment.label} — ${formatCompact(segment.value, 1)} (${((segment.value / total) * 100).toFixed(0)}%)`,
                 color: segment.color

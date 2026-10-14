@@ -166,14 +166,14 @@ export class Visual extends TalosVisual {
             for (let layer = 0; layer < layers; layer++) {
                 const low = (scaleMax / layers) * layer;
                 const high = (scaleMax / layers) * (layer + 1);
-                const topPath = this.layerPath(band.values, ctx, labelWidth, step, midY, scaleY, low, high, -1);
+                const topPath = this.layerPath(band.values, ctx, labelWidth, step, midY, scaleY, low, high, 1);
                 const layerOpacity = 0.18 + (layer / Math.max(1, layers - 1 || 1)) * 0.62;
                 if (topPath) {
                     append(svg, svgEl("path", { d: topPath, fill: theme.accent, "fill-opacity": layerOpacity }));
                 }
-                const bottomPath = this.layerPath(band.values, ctx, labelWidth, step, midY, scaleY, low, high, 1);
+                const bottomPath = this.layerPath(band.values, ctx, labelWidth, step, midY, scaleY, low, high, -1);
                 if (bottomPath) {
-                    append(svg, svgEl("path", { d: bottomPath, fill: "#EF6F87", "fill-opacity": layerOpacity }));
+                    append(svg, svgEl("path", { d: bottomPath, fill: theme.palette[3], "fill-opacity": layerOpacity }));
                 }
             }
 
@@ -294,6 +294,7 @@ export class Visual extends TalosVisual {
     ): string {
         let path = "";
         let open = false;
+        let lastBase = midY;
         values.forEach((value, index) => {
             if (value === null || !isFinite(value)) {
                 return;
@@ -305,17 +306,21 @@ export class Visual extends TalosVisual {
             }
             const capped = clamp(magnitude, low, high) - low;
             const x = left + index * step;
-            const y = midY - sign * (scaleY(low) + scaleY(capped));
+            // Cada faixa é fechada na própria base (não na linha do zero): assim um
+            // valor abaixo da faixa não vira um bloco cheio até o eixo.
+            const baseY = midY - sign * scaleY(low);
+            const y = baseY - sign * scaleY(capped);
             if (!open) {
-                path += `M${x.toFixed(2)},${midY.toFixed(2)}L${x.toFixed(2)},${y.toFixed(2)}`;
+                path += `M${x.toFixed(2)},${baseY.toFixed(2)}L${x.toFixed(2)},${y.toFixed(2)}`;
                 open = true;
             } else {
                 path += `L${x.toFixed(2)},${y.toFixed(2)}`;
             }
+            lastBase = baseY;
         });
         if (open) {
             const lastIndex = values.length - 1;
-            path += `L${(left + lastIndex * step).toFixed(2)},${midY.toFixed(2)}Z`;
+            path += `L${(left + lastIndex * step).toFixed(2)},${lastBase.toFixed(2)}Z`;
         }
         return path;
     }

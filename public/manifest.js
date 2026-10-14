@@ -7,8 +7,8 @@ window.TALOS_VISUALS = [
     "description": "Matriz de pontos proporcional ao valor, em grade responsiva.",
     "subtitle": "Uma célula por estado: quanto mais pontos acesos, maior o valor.",
     "apiVersion": "5.11.0",
-    "bytes": 12280,
-    "sha256": "4e177b3408bc6542",
+    "bytes": 12292,
+    "sha256": "032490cbf234bcde",
     "roles": [
       {
         "name": "category",
@@ -62,8 +62,8 @@ window.TALOS_VISUALS = [
     "description": "Compara dois valores por categoria num eixo comum, com delta e ordenação.",
     "subtitle": "Planejado contra realizado, ordenado pela maior diferença.",
     "apiVersion": "5.11.0",
-    "bytes": 14184,
-    "sha256": "e3abf9620d0844b8",
+    "bytes": 14214,
+    "sha256": "4301ca786d4abf5b",
     "roles": [
       {
         "name": "category",
@@ -129,8 +129,8 @@ window.TALOS_VISUALS = [
     "description": "Bônus interativo: o dado sorteia uma categoria e o jogador chuta o valor.",
     "subtitle": "Bônus: o dado sorteia uma categoria e você tenta acertar o valor.",
     "apiVersion": "5.11.0",
-    "bytes": 12947,
-    "sha256": "327960ceee104959",
+    "bytes": 12959,
+    "sha256": "fa6513d2e785fe77",
     "roles": [
       {
         "name": "category",
@@ -183,8 +183,8 @@ window.TALOS_VISUALS = [
     "description": "Cada linha desenha seu próprio mini gráfico: partida, chegada, direção e variação.",
     "subtitle": "Cada linha desenha a própria variação entre início e fim.",
     "apiVersion": "5.11.0",
-    "bytes": 11860,
-    "sha256": "7185b047330c0fa0",
+    "bytes": 11873,
+    "sha256": "3d534957e86f0e09",
     "roles": [
       {
         "name": "category",
@@ -247,8 +247,8 @@ window.TALOS_VISUALS = [
     "description": "Horizon chart: séries comprimidas em faixas sobrepostas com leitura exata no hover.",
     "subtitle": "Três anos de receita comprimidos em faixas, positiva para cima.",
     "apiVersion": "5.11.0",
-    "bytes": 13691,
-    "sha256": "0e482be1dd9cca9d",
+    "bytes": 13714,
+    "sha256": "1cec475e1ebc500b",
     "roles": [
       {
         "name": "category",
@@ -307,8 +307,8 @@ window.TALOS_VISUALS = [
     "description": "Heatmap linha x coluna com escala de cor, totais e maior valor destacado.",
     "subtitle": "Estado x canal: a cor mostra a intensidade da receita.",
     "apiVersion": "5.11.0",
-    "bytes": 12232,
-    "sha256": "dc4b6c2938f46670",
+    "bytes": 12246,
+    "sha256": "3ffd28027105e591",
     "roles": [
       {
         "name": "category",
@@ -367,8 +367,8 @@ window.TALOS_VISUALS = [
     "description": "Perfis de várias medidas sobre os mesmos eixos, com legenda que liga e desliga séries.",
     "subtitle": "Receita, volume e margem no mesmo perfil normalizado.",
     "apiVersion": "5.11.0",
-    "bytes": 13568,
-    "sha256": "a20920bb66e71b07",
+    "bytes": 13580,
+    "sha256": "900d28ef3aae1d17",
     "roles": [
       {
         "name": "category",
@@ -442,8 +442,8 @@ window.TALOS_VISUALS = [
     "description": "Donut de participação com KPI central, realce no hover e seleção cruzada.",
     "subtitle": "Participação de cada estado no total, com o KPI no centro.",
     "apiVersion": "5.11.0",
-    "bytes": 13789,
-    "sha256": "8a2bcb6cd65a9150",
+    "bytes": 13781,
+    "sha256": "3345c305affb8b4d",
     "roles": [
       {
         "name": "category",
@@ -498,8 +498,8 @@ window.TALOS_VISUALS = [
     "description": "Sankey com nós proporcionais, realce de caminho e seleção por fluxo.",
     "subtitle": "Como o volume sai dos estados e chega aos canais.",
     "apiVersion": "5.11.0",
-    "bytes": 16126,
-    "sha256": "3aea0aa4c8f47002",
+    "bytes": 16153,
+    "sha256": "91ceee6c812bb943",
     "roles": [
       {
         "name": "source",
@@ -558,8 +558,8 @@ window.TALOS_VISUALS = [
     "description": "Lista ranqueada que aplica filtro real ao relatório, com seleção múltipla.",
     "subtitle": "Clique para filtrar: os outros visuais da página reagem na hora.",
     "apiVersion": "5.11.0",
-    "bytes": 24709,
-    "sha256": "fb1ad30c59b28782",
+    "bytes": 24722,
+    "sha256": "07dc9975cd665ec0",
     "roles": [
       {
         "name": "category",
@@ -613,8 +613,8 @@ window.TALOS_VISUALS = [
     "description": "Mostra a consulta com WHERE vivo e aplica predicados clicáveis como filtro do relatório.",
     "subtitle": "A consulta vira interface: clique numa linha para somar um predicado.",
     "apiVersion": "5.11.0",
-    "bytes": 25313,
-    "sha256": "d3595cf8cdec5485",
+    "bytes": 25352,
+    "sha256": "7d1da8a6aa540d06",
     "roles": [
       {
         "name": "category",
@@ -650,7 +650,7 @@ window.TALOS_VISUALS = [
     "verify": {
       "ok": true,
       "nodes": 98,
-      "resizedNodes": 67,
+      "resizedNodes": 55,
       "emptyStateNodes": 8,
       "formattingCards": 2,
       "formattingSlices": 15,

@@ -173,9 +173,12 @@ export class Visual extends TalosVisual {
         const size = bodySize(chrome, ctx);
         const deltaWidth = showDelta ? clamp(size.width * 0.2, 54, 92) : 0;
         const sparkWidth = size.width > 520 ? 54 : 0;
+        // Faixas laterais reservadas para os valores das pontas: assim o rótulo
+        // fica na mesma linha do ponto e não colide com a linha de cima.
+        const valueWidth = showValues && size.width > 420 ? 58 : 0;
         const plot = {
-            x: labelWidth + 8,
-            width: Math.max(60, size.width - labelWidth - deltaWidth - sparkWidth - 26),
+            x: labelWidth + 8 + valueWidth,
+            width: Math.max(60, size.width - labelWidth - deltaWidth - sparkWidth - 26 - valueWidth * 2),
             y: 22,
             height: Math.max(40, size.height - 40)
         };
@@ -307,19 +310,18 @@ export class Visual extends TalosVisual {
                 }
             }
 
-            // Com muitas linhas o rótulo colidiria com a linha de cima: só desenha
-            // quando sobra espaço vertical para ele.
-            if (showValues && step >= 22) {
+            // Valores nas faixas laterais, alinhados com o próprio ponto.
+            if (valueWidth) {
                 if (startX !== null) {
                     append(
                         group,
                         svgEl(
                             "text",
                             {
-                                x: startX - 6,
-                                y: centerY - dotSize - 3,
+                                x: plot.x - 10,
+                                y: centerY + 3,
                                 fill: theme.sub,
-                                "font-size": 9,
+                                "font-size": Math.min(10, step * 0.38),
                                 "text-anchor": "end"
                             },
                             formatNumber(row.start, { format: startSeries.format, decimals })
@@ -332,10 +334,10 @@ export class Visual extends TalosVisual {
                         svgEl(
                             "text",
                             {
-                                x: endX + 6,
-                                y: centerY - dotSize - 3,
+                                x: plot.x + plot.width + 10,
+                                y: centerY + 3,
                                 fill: theme.fg,
-                                "font-size": 9,
+                                "font-size": Math.min(10, step * 0.38),
                                 "text-anchor": "start"
                             },
                             formatNumber(row.end, { format: endSeries.format, decimals })

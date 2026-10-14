@@ -864,6 +864,9 @@ export function renderChrome(
     footer.style.alignItems = "center";
     footer.style.gap = "10px";
     footer.style.flexWrap = "wrap";
+    // Uma legenda enorme não pode engolir a área de desenho em cartões baixos.
+    footer.style.maxHeight = "38%";
+    footer.style.overflow = "hidden";
 
     append(root, header, body, footer);
     target.appendChild(root);
