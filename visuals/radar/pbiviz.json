@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "radar",
+        "displayName": "Radar comparativo",
+        "guid": "radar50B7FE4DA64720232C25BC7C6D66F6C5",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Perfis de v\u00e1rias medidas sobre os mesmos eixos, com legenda que liga e desliga s\u00e9ries.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

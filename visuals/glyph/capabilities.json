@@ -1,0 +1,136 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "category",
+            "name": "category",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "start",
+            "name": "start",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "end",
+            "name": "end",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "presentation": {
+            "displayName": "Apresenta\u00e7\u00e3o",
+            "properties": {
+                "theme": {
+                    "type": {
+                        "enumeration": [
+                            {
+                                "value": "xp",
+                                "displayName": "Executivo (escuro)"
+                            },
+                            {
+                                "value": "papel",
+                                "displayName": "Papel (claro)"
+                            },
+                            {
+                                "value": "neon",
+                                "displayName": "Neon (escuro)"
+                            },
+                            {
+                                "value": "terminal",
+                                "displayName": "Terminal (SQL)"
+                            }
+                        ]
+                    }
+                },
+                "accent": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "accent2": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "decimals": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "showValues": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "showLegend": {
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        },
+        "glyph": {
+            "displayName": "Micro-gr\u00e1ficos",
+            "properties": {
+                "rowHeight": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "barScale": {
+                    "type": {
+                        "enumeration": [
+                            {
+                                "value": "shared",
+                                "displayName": "Comum"
+                            },
+                            {
+                                "value": "own",
+                                "displayName": "Por linha"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 5000
+                        }
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "start"
+                            }
+                        },
+                        {
+                            "bind": {
+                                "to": "end"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "privileges": []
+}

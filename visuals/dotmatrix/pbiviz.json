@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "dotmatrix",
+        "displayName": "Grade de pontos",
+        "guid": "dotmatrixC530EF3FC1923ECEFA722DF094ABBFED",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Matriz de pontos proporcional ao valor, em grade responsiva.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

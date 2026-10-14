@@ -1,0 +1,707 @@
+[
+  {
+    "slug": "dotmatrix",
+    "guid": "dotmatrixC530EF3FC1923ECEFA722DF094ABBFED",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Grade de pontos",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 213,
+    "textLength": 402,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "talos-svg",
+      "tl-dot-grid",
+      "tl-footer",
+      "tl-note"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 15,
+    "formattingNames": [
+      "Apresentação",
+      "Grade de pontos"
+    ],
+    "interactionTargets": 168,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 6,
+    "tooltipsHidden": 6,
+    "selections": 6,
+    "contextMenus": 6,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 111,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Grade de pontosAdicione Categoria e um ValorCada célula mostra o valor em pontos",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 12280,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "dumbbell",
+    "guid": "dumbbell452776DFAE6E0D96F58E528C99284E9D",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Dumbbell comparativo",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "start",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        },
+        {
+          "role": "end",
+          "group": null,
+          "format": "#,##0",
+          "first": 980
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 229,
+    "textLength": 697,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "tl-svg",
+      "tl-axis",
+      "tl-rows",
+      "tl-row",
+      "tl-spark",
+      "tl-footer",
+      "tl-legend-item"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 17,
+    "formattingNames": [
+      "Apresentação",
+      "Dumbbell"
+    ],
+    "interactionTargets": 60,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 6,
+    "tooltipsHidden": 6,
+    "selections": 6,
+    "contextMenus": 6,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 145,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Dumbbell comparativoAdicione Categoria, Valor inicial e Valor finalAceita tabela",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 14184,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "game",
+    "guid": "gameC8D46D341BEA4FD5BFF866A65FF8AEA9",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Desafio · adivinhe o valor",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 21,
+    "textLength": 227,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "tl-game",
+      "tl-game-score",
+      "tl-game-card",
+      "tl-game-answers",
+      "tl-game-input",
+      "tl-game-submit",
+      "tl-footer"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 14,
+    "formattingNames": [
+      "Apresentação",
+      "Desafio"
+    ],
+    "interactionTargets": 1,
+    "interactionsDispatched": 5,
+    "gameSubmitted": true,
+    "gameText": "Desafio · quem conhece os números?chute o valor de Receita0pontos · sequência 0 · recorde 0rodada 2/8Paráquanto vale Receita para essa categoria?chutarreal: 18.",
+    "tooltipsShown": 0,
+    "tooltipsHidden": 0,
+    "selections": 0,
+    "contextMenus": 0,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 21,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Desafio · quem conhece os números?Adicione Categoria e um ValorO jogo sorteia um",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 12947,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "glyph",
+    "guid": "glyphD0DF69451CB647905E5AF2FDDAF910B3",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Micro-gráficos por categoria",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "start",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        },
+        {
+          "role": "end",
+          "group": null,
+          "format": "#,##0",
+          "first": 980
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 101,
+    "textLength": 572,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "talos-svg",
+      "tl-glyph-body",
+      "tl-footer",
+      "tl-note"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 14,
+    "formattingNames": [
+      "Apresentação",
+      "Micro-gráficos"
+    ],
+    "interactionTargets": 30,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 6,
+    "tooltipsHidden": 6,
+    "selections": 6,
+    "contextMenus": 6,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 71,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Micro-gráficos por categoriaAdicione Categoria, Valor inicial e Valor finalCada ",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 11860,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "horizon",
+    "guid": "horizon407E3B6B8B88AAF095F15EFEB865EFD6",
+    "kind": "grouped",
+    "pluginClass": "Visual",
+    "displayName": "Bandas de horizonte",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": "Varejo",
+          "format": "R$ #,##0.00",
+          "first": 1450
+        },
+        {
+          "role": "measure",
+          "group": "Atacado",
+          "format": "R$ #,##0.00",
+          "first": 798
+        },
+        {
+          "role": "measure",
+          "group": "Digital",
+          "format": "R$ #,##0.00",
+          "first": 464
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 41,
+    "textLength": 121,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "talos-svg",
+      "tl-footer",
+      "tl-legend-item",
+      "tl-legend-swatch",
+      "tl-legend-label",
+      "tl-note"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 15,
+    "formattingNames": [
+      "Apresentação",
+      "Bandas de horizonte"
+    ],
+    "interactionTargets": 15,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 1,
+    "tooltipsHidden": 1,
+    "selections": 0,
+    "contextMenus": 0,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 38,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Bandas de horizonteAdicione Eixo, Série (opcional) e ValorCada série virá numa f",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 13691,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "matrixheat",
+    "guid": "matrixheatB0D17DB4548EA07B5A4671ADA615C7BF",
+    "kind": "grouped",
+    "pluginClass": "Visual",
+    "displayName": "Matriz de calor",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": "Varejo",
+          "format": "R$ #,##0.00",
+          "first": 1450
+        },
+        {
+          "role": "measure",
+          "group": "Atacado",
+          "format": "R$ #,##0.00",
+          "first": 798
+        },
+        {
+          "role": "measure",
+          "group": "Digital",
+          "format": "R$ #,##0.00",
+          "first": 464
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 110,
+    "textLength": 508,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "talos-svg",
+      "tl-heat-header",
+      "tl-heat-body",
+      "tl-footer",
+      "tl-note"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 15,
+    "formattingNames": [
+      "Apresentação",
+      "Matriz de calor"
+    ],
+    "interactionTargets": 37,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 6,
+    "tooltipsHidden": 6,
+    "selections": 6,
+    "contextMenus": 6,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 110,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Matriz de calorAdicione Categoria, Coluna e ValorLinha x coluna cruzadas por uma",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 12232,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "radar",
+    "guid": "radar50B7FE4DA64720232C25BC7C6D66F6C5",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Radar comparativo",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        },
+        {
+          "role": "measure2",
+          "group": null,
+          "format": "#,##0",
+          "first": 980
+        },
+        {
+          "role": "measure3",
+          "group": null,
+          "format": "#,##0",
+          "first": 640
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 87,
+    "textLength": 214,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "talos-svg",
+      "tl-radar-grid",
+      "tl-footer",
+      "tl-legend-item",
+      "tl-legend-swatch",
+      "tl-legend-label"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 15,
+    "formattingNames": [
+      "Apresentação",
+      "Radar"
+    ],
+    "interactionTargets": 39,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 6,
+    "tooltipsHidden": 6,
+    "selections": 6,
+    "contextMenus": 6,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 84,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Radar comparativoAdicione Categoria e duas ou mais MedidasO radar precisa de pel",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 13568,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "ring",
+    "guid": "ring1A5DF958E0F29D35594C7CF057FE4BD1",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Anel de participação",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 47,
+    "textLength": 275,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "talos-svg",
+      "tl-ring",
+      "tl-footer",
+      "tl-legend-item",
+      "tl-legend-swatch",
+      "tl-legend-label"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 16,
+    "formattingNames": [
+      "Apresentação",
+      "Anel"
+    ],
+    "interactionTargets": 10,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 6,
+    "tooltipsHidden": 6,
+    "selections": 6,
+    "contextMenus": 6,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 47,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Anel de participaçãoAdicione Categoria e um ValorO anel mostra a participação de",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 13789,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "sankey",
+    "guid": "sankey61281B9DFE71C22C24C0D652C3BCA50B",
+    "kind": "grouped",
+    "pluginClass": "Visual",
+    "displayName": "Fluxo entre origem e destino",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": "Varejo",
+          "format": "R$ #,##0.00",
+          "first": 1450
+        },
+        {
+          "role": "measure",
+          "group": "Atacado",
+          "format": "R$ #,##0.00",
+          "first": 798
+        },
+        {
+          "role": "measure",
+          "group": "Digital",
+          "format": "R$ #,##0.00",
+          "first": 464
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 76,
+    "textLength": 447,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "talos-svg",
+      "tl-links",
+      "tl-nodes",
+      "tl-footer",
+      "tl-note"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 15,
+    "formattingNames": [
+      "Apresentação",
+      "Fluxo"
+    ],
+    "interactionTargets": 51,
+    "interactionsDispatched": 30,
+    "tooltipsShown": 6,
+    "tooltipsHidden": 6,
+    "selections": 5,
+    "contextMenus": 5,
+    "filtersApplied": [],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 76,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Fluxo entre origem e destinoAdicione Origem, Destino e ValorUma linha por caminh",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 16126,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "slicer",
+    "guid": "slicer200A4DD09C85510047B9943ABCAF8A2B",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Filtro visual",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 82,
+    "textLength": 330,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "tl-slicer-list",
+      "tl-slicer-row",
+      "tl-slicer-rank",
+      "tl-slicer-check",
+      "tl-slicer-label",
+      "tl-slicer-value",
+      "tl-footer"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 15,
+    "formattingNames": [
+      "Apresentação",
+      "Filtro"
+    ],
+    "interactionTargets": 12,
+    "interactionsDispatched": 30,
+    "rowClicked": true,
+    "tooltipsShown": 0,
+    "tooltipsHidden": 0,
+    "selections": 0,
+    "contextMenus": 0,
+    "filtersApplied": [
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0"
+    ],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 59,
+    "emptyStateNodes": 8,
+    "emptyStateText": "FiltroAdicione uma CategoriaClique nos itens para filtrar o relatório inteiro",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 24709,
+    "apiVersion": "5.11.0"
+  },
+  {
+    "slug": "sqlfilter",
+    "guid": "sqlfilter5125CF8C686B9548D3AD76ED3EE63FB6",
+    "kind": "categorical",
+    "pluginClass": "Visual",
+    "displayName": "Query builder (terminal)",
+    "constructorOk": true,
+    "dataShape": {
+      "categories": 12,
+      "values": [
+        {
+          "role": "measure",
+          "group": null,
+          "format": "R$ #,##0.00",
+          "first": 1450
+        }
+      ]
+    },
+    "updateOk": true,
+    "nodes": 98,
+    "textLength": 549,
+    "classes": [
+      "tl-root",
+      "tl-header",
+      "tl-title",
+      "tl-sub",
+      "tl-body",
+      "tl-query",
+      "tl-query-line",
+      "tl-query-where",
+      "tl-predicates",
+      "tl-grid",
+      "tl-grid-header",
+      "tl-grid-row"
+    ],
+    "formattingCards": 2,
+    "formattingSlices": 15,
+    "formattingNames": [
+      "Apresentação",
+      "Query"
+    ],
+    "interactionTargets": 12,
+    "interactionsDispatched": 30,
+    "rowClicked": true,
+    "tooltipsShown": 0,
+    "tooltipsHidden": 0,
+    "selections": 0,
+    "contextMenus": 0,
+    "filtersApplied": [
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0",
+      "Estado:0"
+    ],
+    "renderingFinished": 1,
+    "renderErrors": [],
+    "resizedNodes": 67,
+    "emptyStateNodes": 8,
+    "emptyStateText": "Query buildermodo terminalAdicione uma CategoriaA consulta é montada a partir da",
+    "renderErrorsAfterEdgeCases": [],
+    "ok": true,
+    "bytes": 25313,
+    "apiVersion": "5.11.0"
+  }
+]

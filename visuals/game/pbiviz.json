@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "game",
+        "displayName": "Desafio \u00b7 adivinhe o valor",
+        "guid": "gameC8D46D341BEA4FD5BFF866A65FF8AEA9",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "B\u00f4nus interativo: o dado sorteia uma categoria e o jogador chuta o valor.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

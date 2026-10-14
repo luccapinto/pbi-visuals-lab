@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "ring",
+        "displayName": "Anel de participa\u00e7\u00e3o",
+        "guid": "ring1A5DF958E0F29D35594C7CF057FE4BD1",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Donut de participa\u00e7\u00e3o com KPI central, realce no hover e sele\u00e7\u00e3o cruzada.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

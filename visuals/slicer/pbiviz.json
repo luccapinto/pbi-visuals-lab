@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "slicer",
+        "displayName": "Filtro visual",
+        "guid": "slicer200A4DD09C85510047B9943ABCAF8A2B",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Lista ranqueada que aplica filtro real ao relat\u00f3rio, com sele\u00e7\u00e3o m\u00faltipla.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

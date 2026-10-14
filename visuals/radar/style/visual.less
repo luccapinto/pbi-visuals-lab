@@ -1,0 +1,38 @@
+/* Shared look for the Talos visual pack: only what inline styles cannot express. */
+
+.tl-root {
+    font-variant-numeric: tabular-nums;
+    user-select: none;
+}
+
+.tl-svg text {
+    font-family: inherit;
+}
+
+.tl-slicer-row:hover,
+.tl-grid-row:hover {
+    outline: 1px solid rgba(255, 255, 255, 0.16);
+    outline-offset: -1px;
+}
+
+.tl-game-input:focus {
+    border-color: rgba(255, 255, 255, 0.45);
+}
+
+.tl-game-submit:hover,
+.tl-slicer-clear:hover,
+.tl-game-again:hover {
+    filter: brightness(1.12);
+}
+
+.tl-grid,
+.tl-slicer-list {
+    scrollbar-width: thin;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tl-root * {
+        transition: none !important;
+        animation: none !important;
+    }
+}

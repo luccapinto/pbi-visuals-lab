@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "sqlfilter",
+        "displayName": "Query builder (terminal)",
+        "guid": "sqlfilter5125CF8C686B9548D3AD76ED3EE63FB6",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Mostra a consulta com WHERE vivo e aplica predicados clic\u00e1veis como filtro do relat\u00f3rio.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

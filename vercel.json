@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "echo skip-install",
+  "buildCommand": "echo static-site",
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/bundles/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/downloads/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    }
+  ]
+}

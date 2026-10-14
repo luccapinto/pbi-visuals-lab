@@ -1,0 +1,8 @@
+node_modules/
+visuals/*/node_modules
+visuals/*/dist/
+visuals/*/.tmp/
+tools/.extract/
+tools/.debug-ctx.mjs
+tools/logs/
+.vercel

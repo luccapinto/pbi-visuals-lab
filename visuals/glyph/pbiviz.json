@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "glyph",
+        "displayName": "Micro-gr\u00e1ficos por categoria",
+        "guid": "glyphD0DF69451CB647905E5AF2FDDAF910B3",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Cada linha desenha seu pr\u00f3prio mini gr\u00e1fico: partida, chegada, dire\u00e7\u00e3o e varia\u00e7\u00e3o.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

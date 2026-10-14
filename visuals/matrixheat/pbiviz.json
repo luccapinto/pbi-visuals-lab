@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "matrixheat",
+        "displayName": "Matriz de calor",
+        "guid": "matrixheatB0D17DB4548EA07B5A4671ADA615C7BF",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Heatmap linha x coluna com escala de cor, totais e maior valor destacado.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

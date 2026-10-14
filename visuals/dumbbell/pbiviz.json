@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "dumbbell",
+        "displayName": "Dumbbell comparativo",
+        "guid": "dumbbell452776DFAE6E0D96F58E528C99284E9D",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Compara dois valores por categoria num eixo comum, com delta e ordena\u00e7\u00e3o.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

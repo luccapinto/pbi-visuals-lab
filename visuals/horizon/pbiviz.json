@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "horizon",
+        "displayName": "Bandas de horizonte",
+        "guid": "horizon407E3B6B8B88AAF095F15EFEB865EFD6",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Horizon chart: s\u00e9ries comprimidas em faixas sobrepostas com leitura exata no hover.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "sankey",
+        "displayName": "Fluxo entre origem e destino",
+        "guid": "sankey61281B9DFE71C22C24C0D652C3BCA50B",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Sankey com n\u00f3s proporcionais, realce de caminho e sele\u00e7\u00e3o por fluxo.",
+        "supportUrl": "https://pbi-visuals-lab.luccabuilds.com",
+        "gitHubUrl": "https://github.com/luccapinto/pbi-visuals-lab"
+    },
+    "apiVersion": "5.11.1",
+    "author": {
+        "name": "Lucca Pinto",
+        "email": "luccapinto@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}
