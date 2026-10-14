@@ -179,7 +179,7 @@
                 verify.tooltipsShown + " tooltips",
                 verify.selections + " seleções",
                 verify.contextMenus + " menus",
-                verify.filtersApplied + " filtros"
+                (verify.filtersApplied || []).length + " filtros"
             ].join(" · ");
 
             row.appendChild(nameCell);
