@@ -672,9 +672,34 @@
             .nav-links {
                 display: none;
             }
+            .nav-inner {
+                flex-wrap: wrap;
+                row-gap: 8px;
+                gap: 10px;
+            }
+            .brand {
+                font-size: 14px;
+            }
+            .brand small {
+                display: none;
+            }
             .controls {
                 margin-left: 0;
                 width: 100%;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                padding-bottom: 2px;
+                scrollbar-width: none;
+            }
+            .controls::-webkit-scrollbar {
+                display: none;
+            }
+            .seg-btn {
+                padding: 5px 10px;
+                white-space: nowrap;
+            }
+            .toggle {
+                white-space: nowrap;
             }
             .grid {
                 grid-template-columns: 1fr;
